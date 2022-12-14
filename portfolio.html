@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Студія</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <!-- Спочатку нормалізатор -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+        <!-- Потім ваші стилі --> 
+        <link rel="stylesheet" href="./css/main.min.css">
+    </head>
+    
+    <body>
+        <!--Шапка-->
+        <header class="header">
+            <div class="main-nav container">
+                <nav class="nav">
+                    <a class="logo link" href="./index.html">Web<span class="black">Studio</span></a>
+                    <ul class="nav-list">
+                        <li class="item"><a class="nav-link link" href="./index.html">Студія</a></li>
+                        <li class="item"><a class="portfolio-link link" href="./portfolio.html">Портфоліо</a></li>
+                        <li class="item"><a class="nav-link link" href="">Контакти</a></li>
+                    </ul>
+                </nav>
+                <ul class="contacts-list">
+                    <li class="item">
+                        <a class="contacts-link link" href="mailto:info@devstudio.com">
+                            <svg class="contacts-svg" width="16" height="12">
+                                <use href="./images/icons.svg#icon-envelope"></use>
+                            </svg>
+                            <span>info@devstudio.com</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="contacts-link link" href="tel:+380961111111">
+                            <svg class="contacts-svg" width="10" height="16">
+                                <use href="./images/icons.svg#icon-smartphone"></use>
+                            </svg>
+                            <span>+38 096 111 11 11</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        
+        <!--Унікальний зміст сторінки-->
+        <main>
+            <section class="section contacts" id="contacts">
+                <div class="container">
+                  <h2 class="visually-hidden">Our contacts</h2>
+                  <ul class="contacts__list">
+                    <li class="contacts__item">
+                      <span class="contacts__label">CAFE</span>
+                      <address class="contacts__address">
+                        <span class="contacts__title">Chicago</span>
+                        <a
+                          target="_blank"
+                          class="contacts__location"
+                          href="https://www.google.com/maps/place/10340+Ridgeland+Ave,+Chicago+Ridge,+IL+60415,+Сполучені+Штати+Америки/@41.7034016,-87.7797405,17z/data=!4m5!3m4!1s0x880e39ad302b2c19:0xc808e9b14d04eb2b!8m2!3d41.7034016!4d-87.7797405"
+                          >10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</a
+                        >
+                      </address>
+              
+                      <div class="contacts__schedule">
+                        <p class="contacts__title contacts__day">Monday - Friday</p>
+                        <p class="contacts__time">06:00 AM - 10:00 PM</p>
+              
+                        <p class="contacts__title contacts__day">Saturday - Sunday</p>
+                        <p class="contacts__time">08:00 AM - 16:00 PM</p>
+                      </div>
+                      <div>
+                        <address class="contacts__title">
+                          <a class="contacts__tel" href="tel:+610383766284"
+                            >+61(0) 383 766 284
+                          </a>
+                          <a class="contacts__mail" href="mailto:noreply@envato.com"
+                            >noreply@envato.com</a
+                          >
+                        </address>
+                      </div>
+                    </li>
+                    <li class="contacts__item">
+                      <p class="contacts__label">FOOD TRUCK</p>
+                      <address class="contacts__address">
+                        <span class="contacts__title">Los Angeles</span>
+                        <a
+                          target="_blank"
+                          class="contacts__location"
+                          href="https://www.google.com/maps/place/1003+Manhattan+Ave,+Manhattan+Beach,+CA+90266,+Сполучені+Штати+Америки/@33.8835263,-118.4103286,17z/data=!4m5!3m4!1s0x80c2b3eca6743829:0x98448969b9b4373d!8m2!3d33.8835263!4d-118.4103286"
+                          >1003 Manhattan Ave, Manhattan Beach, CA 90263, USA</a
+                        >
+                      </address>
+              
+                      <div class="contacts__schedule">
+                        <p class="contacts__title contacts__day">Monday - Friday</p>
+                        <p class="contacts__time">06:00 AM - 10:00 PM</p>
+              
+                        <p class="contacts__title contacts__day">Saturday - Sunday</p>
+                        <p class="contacts__time">08:00 AM - 16:00 PM</p>
+                      </div>
+                      <div>
+                        <address class="contacts__title">
+                          <a class="contacts__tel" href="tel:+610383766284"
+                            >+61(0) 383 766 284
+                          </a>
+                          <a class="contacts__mail" href="mailto:noreply@envato.com"
+                            >noreply@envato.com</a
+                          >
+                        </address>
+                      </div>
+                    </li>
+                    <li class="contacts__item">
+                      <p class="contacts__label">CAFE</p>
+                      <address class="contacts__address">
+                        <span class="contacts__title">Los Angeles</span>
+                        <a
+                          target="_blank"
+                          class="contacts__location"
+                          href="https://www.google.com/maps/place/726+Sterling+Pl,+Brooklyn,+NY+11216,+Сполучені+Штати+Америки/@40.6726938,-73.954734,17z/data=!4m5!3m4!1s0x89c25b9e1735b38f:0xb5fe454b88e9c2c0!8m2!3d40.6726938!4d-73.954734"
+                          >726 Sterling Pl, Brooklyn, NY 11222, USA</a
+                        >
+                      </address>
+              
+                      <div class="contacts__schedule">
+                        <p class="contacts__title contacts__day">Monday - Friday</p>
+                        <p class="contacts__time">06:00 AM - 10:00 PM</p>
+              
+                        <p class="contacts__title contacts__day">Saturday - Sunday</p>
+                        <p class="contacts__time">08:00 AM - 16:00 PM</p>
+                      </div>
+                      <div>
+                        <address class="contacts__title">
+                          <a class="contacts__tel" href="tel:+610383766284"
+                            >+61(0) 383 766 284
+                          </a>
+                          <a class="contacts__mail" href="mailto:noreply@envato.com"
+                            >noreply@envato.com</a
+                          >
+                        </address>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="contacts__btn-wrap">
+                    <button
+                      class="btn contacts__btn contacts__btn--orange"
+                      type="button" 
+                      data-modal-open="5"
+                    >
+                      Our Locations
+                      <svg class="contacts__icon" width="12" height="12">
+                        <use href="./icons/icons.svg#about__icon"></use>
+                      </svg>
+                    </button>
+                    <button
+                      class="contour-btn contacts__btn contacts__btn--transparent"
+                      type="button" 
+                      data-modal-open="6"
+                    >
+                      Franchise
+                      <svg class="contacts__icon" width="12" height="12">
+                        <use href="./icons/icons.svg#about__icon"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </section>
+              
+              
+        </main>
+    
+        <!--Підвал-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-box">
+                    <div>
+                        <a class="logo link" href="./index.html" >Web<span class="white">Studio</span></a>
+                        <address>
+                            <ul class="address-list">
+                                <li class="item">
+                                    <a class="address-map-link link" href="https://goo.gl/maps/7WfShjQi5e1JMtdQ9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a>
+                                </li>
+                                <li class="item">
+                                    <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                                </li>
+                                <li class="item">
+                                    <a class="address-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="social">
+                        <p class="social-text">
+                            ПРИЄДНУЙТЕСЬ
+                        </p>
+                        <ul class="socialmedia-list">
+                            <li>
+                                <a class="socialmedia-list__link socialmedia-list__link--group" href=" ">
+                                    <svg class="socialmedia-list__svg" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                </a> 
+                            </li>
+                            <li>
+                                <a class="socialmedia-list__link socialmedia-list__link--group" href=" ">
+                                    <svg class="socialmedia-list__svg" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                </a> 
+                            </li>
+                            <li>
+                                <a class="socialmedia-list__link socialmedia-list__link--group" href=" ">
+                                    <svg class="socialmedia-list__svg" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="socialmedia-list__link socialmedia-list__link--group" href=" ">
+                                    <svg class="socialmedia-list__svg" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="form-email">
+                        <div class="form-email-field">
+                            <label for="mail" class="social-text">ПіДПИШІТЬСЯ НА РОЗСИЛКУ</label>
+                            <input type="email" name="mail" id="mail" placeholder="E-mail"/>
+                        </div>
+                        <button type="submit">
+                            <span>Підписатися</span>
+                            <svg width="24" height="24">
+                                <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <div class="location backdrop is-hidden" data-modal="5">
+            <div class="location__block">
+              <button class="location__modal-btn" type="button" data-modal-close="5">
+                <svg class="location__close-modal" width="20" height="20">
+                  <use href="./icons/icons.svg#close"></use>
+                </svg>
+              </button>
+              <h2 class="location__text title">Our Locations</h2>
+              <iframe
+                class="location__picture"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2322.371221614389!2d18.570346799999996!3d54.403420399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd752e64ecb627%3A0x85a6e97b20566095!2zQWxlamEgR3J1bndhbGR6a2EgNDcyYywgODAtMzA5IEdkYcWEc2ssINCf0L7Qu9GM0YnQsA!5e0!3m2!1suk!2sua!4v1665571697147!5m2!1suk!2sua"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <div class="location__wrap">
+                <a
+                  target="_blank"
+                  class="btn location__btn"
+                  href="https://goo.gl/maps/GcAWXVkWYvkYx3WE9"
+                  >Open map</a
+                >
+              </div>
+            </div>
+          </div>
+          
+          <div class="backdrop is-hidden" data-modal="6">
+            <div class="franchise">
+              <button class="franchise__modal-btn" type="button" data-modal-close="6">
+                <svg class="franchise__close-modal" width="20" height="20">
+                  <use href="./icons/icons.svg#close"></use>
+                </svg>
+              </button>
+              <h2 class="franchise__text title">
+                Thank you for your interest in owning an Ice Cream shop
+              </h2>
+              <p class="franchise__offer">
+                Due to the overwhelming volume of franchise requests we are not accepting
+                new franchisee applications at this time. Once the application process
+                resumes, we will contact you for further information. Please fill out the
+                contact information below and we will reach out for additional
+                information. We appreciate your patience.
+              </p>
+              <include src="./partials/form.html"></include>
+            </div>
+          </div>
+    </body>
+</html>

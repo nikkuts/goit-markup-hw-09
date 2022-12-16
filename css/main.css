@@ -1494,7 +1494,42 @@ textarea:focus {
 }
 
 @media screen and (max-width: 767px) {
-  .contacts__btn--orange {
+  .btn {
     margin-top: 20px;
   }
+}
+
+.contacts__btn {
+  width: 196px;
+  height: 42px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2857142857;
+  text-align: center;
+}
+
+.contacts__btn--orange {
+  color: #131313;
+  background-color: #F8D24E;
+  border-radius: 10px;
+  border: 0 solid transparent;
+  cursor: pointer;
+}
+
+.contacts__btn--transparent {
+  color: #000000;
+  border: 2px solid #F8D24E;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: color var(--animation-time) var(--animation-timing-function), background-color var(--animation-time) var(--animation-timing-function);
+}
+.contacts__btn--transparent:hover, .contacts__btn--transparent:focus {
+  color: #131313;
+  background-color: #F8D24E;
+}
+
+.contacts__icon {
+  fill: currentColor;
 }/*# sourceMappingURL=main.css.map */
